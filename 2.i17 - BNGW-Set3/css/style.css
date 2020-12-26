@@ -1,0 +1,92 @@
+html {font-size: 62.5%}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 80%;
+    display: block;
+    margin: auto
+}
+
+img:last-child {
+    width: 100%
+}
+header {
+    height: 50px;
+    padding-top: 10px
+}
+.w-100 {
+    width: 100%
+}
+
+.box-main {
+    min-height: 250px
+}
+
+.my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1.5rem
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+a:hover {
+    color: #11CCCC
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-contect {
+    max-width: 30%
+}
+
+button {
+    padding: 10px;
+    background: #11CCCC;
+    color: white;
+    border: none; outline: none;
+
+    position: absolute;
+    bottom: 0;
+    cursor: pointer
+}
+
+input, textarea {
+    outline: none;
+    width: 100%
+}
+
+
+.form {
+    position: relative;
+    min-width: 60%
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.box-address {
+    margin-top: 20px
+}
