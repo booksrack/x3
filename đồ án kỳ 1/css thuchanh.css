@@ -1,0 +1,52 @@
+.hello{
+    background-color: black;
+    height:40px;
+    color:#f1f1f1;
+}
+
+#item{
+    float:left;
+    width:1200px;
+    padding-top:60px;
+    margin-left:400px;
+
+}
+#item ul{
+    list-style-type:none;
+    background:black;
+    text-align:center;/*cột ra giữa*/
+    /*overflow:hidden;*/
+}
+#item ul li{
+    color: #f1f1f1;
+    display:inline-table; /*làm menu ngang*/
+    width: 350px;
+    height: 40px;
+    line-height:40px;/*căn chiều cao ra giữa*/
+    position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
+}
+#item ul li a{
+    color: #f1f1f1;
+    text-decoration: none;/*mất đi dấu gạch chân dưới chữ*/
+    display:block;
+}
+#item ul li a:hover{
+    background:#f1f1f1;
+    color:#333;
+}
+#item ul li > .sub-menu{
+    display:none;/*ẩn vô*/
+    position:absolute; /* giúp không bị tác động ở bên ngoài hoặc trong phần tử con */
+}
+#item ul li:hover .sub-menu{
+    display: block; /*hiện ra*/
+}
+.hello1{
+    padding-top:90px;
+    margin-left:880px;
+
+}
+
+
+
+

@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:sans-serif;
+    color:blue;
+}
+
+#menu{
+    float:left;
+    width:1200px;
+
+}
+#menu ul{
+    list-style-type:none;
+    background:black;
+    /*text-align:center;*//*cột ra giữa*/
+    margin-left:20px;
+    /*overflow:hidden;*/
+}
+#menu ul li {
+    color: #f1f1f1;
+    display:inline-table; /*làm menu ngang*/
+    width: 120px;
+    height: 40px;
+    line-height:40px;/*căn chiều cao ra giữa*/
+    position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
+}
+#menu ul li a{
+    color: #f1f1f1;
+    text-decoration: none;/*mất đi màu chữ*/
+    display:block;
+}
+#menu ul li a:hover{
+    background:#f1f1f1;
+    color:#333;
+}
+#menu ul li > .sub-menu{
+    display:none;/*ẩn vô*/
+    position:absolute; /* giúp không bị tác động ở bên ngoài hoặc trong phần tử con */
+}
+#menu ul li:hover .sub-menu{
+    display: block; /*hiện ra*/
+}
+
+#icon {
+    float:right;
+}
+#icon ul{
+    width:500px;
+    list-style-type:none;
+    background:black;
+    text-align:center;/*cột ra giữa*/
+    /*overflow:hidden;*/
+}
+#icon ul li {
+    color: #f1f1f1;
+    display:inline-table; /*làm menu ngang*/
+    width: 50px;
+    height: 40px;
+    line-height:40px;/*căn chiều cao ra giữa*/
+    position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
+}
+#icon ul li a{
+    color: #f1f1f1;
+    text-decoration: none;/*mất đi màu chữ*/
+    display:block;
+}
+#icon ul li a:hover{
+    background:#f1f1f1;
+    color:#333;
+}
+
