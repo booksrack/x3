@@ -1,41 +1,37 @@
-
 #item{
-    float:left;
-    width:1200px;
+    width:100%;
     padding-top:80px;
-    margin-left:400px;
-
 }
 #item ul{
     list-style-type:none;
     background:;
-    text-align:center;/*cột ra giữa*/
+    text-align:center;/*vam ban ra giữa*/
     /*overflow:hidden;*/
 }
 #item ul li{
     color: #f1f1f1;
     display:inline-table; /*làm menu ngang*/
-    width: 380px;
-    height: 40px;
+    width:100%;
+    height: auto;
     margin-right:15px;
     line-height:40px;/*căn chiều cao ra giữa*/
     /*position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
 }
 #item ul li a{
-    background:#4b0082;
-    color: #f1f1f1;
+    background:#ffffff;
+    color: #333;
     text-decoration: none;/*mất đi dấu gạch chân dưới chữ*/
     display:block;
 }
 #item ul li a:hover{
     background:#f1f1f1;
-    color:#333;
+    color:red;
 }
 
 
 #item1{
     float:left;
-    width:1200px;
+    width:100%;
     padding-top:60px;/*đẩy lề xuống giữ vi trí top đầu*/
     margin-left:400px;
 
@@ -47,7 +43,7 @@
     /*overflow:hidden;*/
 }
 #item1 ul li{
-    color: #f1f1f1;
+    color: #333;
     display:inline-table; /*làm menu ngang*/
     width: 281px;
     height: 40px;
@@ -56,14 +52,14 @@
     position:relative; /* giúp không bị tác động bên ngoài hoặc trong phần tử con */
 }
 #item1 ul li a{
-    color: #f1f1f1;
-    background:#4b0082;
+    color: #333;
+    background:#ffffff;
     text-decoration: none;/*mất đi dấu gạch chân dưới chữ*/
     display:block;
 }
 #item1 ul li a:hover{
     background:#f1f1f1;
-    color:#333;
+    color:RED;
 }
 .hello1{
     color:blue;
@@ -74,8 +70,6 @@ h3{
     font-family: 'Roboto', sans-serif;
 
 }
-
-
 
 
 
