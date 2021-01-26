@@ -1,0 +1,45 @@
+body {
+    backgroud-color: #fff222;/*màu nền cột đó */
+    height: 20px; /* chiều dài*/
+    line-height: normal; /*khoảng cách chiều cao trung bình của chữ*/
+    line-height: 1.6;/* chiều cao 1.6 của chữ*/
+    line-height: 80%; /* chiều cao 80% */
+    line-height: 200%; /*khoảng cách chiều cao 200% */
+    border: 3px solid blue; /*chỉnh to nhỏ khung viền*/
+    color: red; /*màu chữ*/
+    font-weight:bold;
+    font-size:10px; /*cỡ chữ*/
+    display: block;/*hiện ra*/
+    margin: 10px; /*kéo chữ hoặc ảnh vào trong theo mo hinh hop*/
+    margin-bottom:5px;/*đẩy khoảng cách chữ*/
+    margin-right:5px;/*chia khoang cách lề hoặc chữ*/
+    margin-top:10px; /*kéo lề xuống đưới (chữ hoặc ảnh)*/
+    margin-left: 10px;/* đẩy lề sang phải*/
+    text-decoration:none;
+    text-align:center;/*cột ra giữa*/
+    background-image:url();/*them anh trong css;
+
+    display: none;/*không hiển thị*/
+    display: inline;/*hiển thị theo theo dòng */
+    display: block;/* hiển thị theo cột */
+    display: inline-block;/* nội tuyến - theo khối /*;
+    :hover{ /*chỉ con chuột vào chữ sẽ đổi màu*/
+    position: static | relative | absolute | fixed;
+    position: absolute; /*co gia tri tuyet doi (co the dat bat cu da trong html ma khong bi tac dong
+        va su dung thuoc tinh nhu binh thung*/
+        position: relative; /*Relative có tác dụng di chuyển phần tử khỏi vị trí ban đầu
+         nhưng có “quan hệ” với vị trí cũ. */
+        left:0px; /* di chuyển từ trái sang phải */
+        top:0px; /* di chuyển xuống dưới */
+        float:none; /*xuất hiện ảnh ngay tại chỗ đó */
+        float:left; /* xuất hiện bên trái */
+        float:right;/* xuất hiện bên phải */
+        float:none;/* o giua */z
+        padding: 15px; /*vien ben ngoai*/
+        /*bảng màu: blue, black, red, green, yellow, white, */
+    }
+}
+a{
+    list-style-type:square; /*(dấu chấm hoặc vuông ở đầu câu) disc,circle,decimal,lower-roman,upper-roman,none,*/
+    list-style-position:inside;/*cho dấu chấm dịch vào trong*/
+}
